@@ -138,6 +138,49 @@ git commit -m "k"
 55. git mergetool
     git commit -am "resolved conflict"
 
+56. rm *.orig
+
+57. git tag
+
+58. git tag <> <branch_name>
+
+59. git tag -a <name> -m "<>" <id>
+
+60. git push origin <tag_name>
+
+61. git push --tags
+
+62. git push origin <branch_name>
+
+63. git tag -d <tag_name>
+
+64. git push origin :<tag_name>
+
+65. git tag -f <tag_name> <id>
+
+66. git push --force origin <branch_name>
+
+67. git remote add upstream <ssh> 
+
+68. git pull upstream master
+
+69. git branch -d
+
+70. git fetch -p
+
+71. git fetch --upstream
+
+72. git fetch --all
+
+73. git checkout -b <branch_name> <origin/<branch_name>>
+#when there are same branch in multiple origins
+
+74. 
+
+
+
+
+
 
 
 
