@@ -175,7 +175,54 @@ git commit -m "k"
 73. git checkout -b <branch_name> <origin/<branch_name>>
 #when there are same branch in multiple origins
 
-74. 
+74. git format-patch <branch_name> -o patches
+
+75. git format-patch -1 <branch_id> -o patches
+
+76. git am <path>
+
+77. git format-patch master --stdout < <file>
+
+78. git format-patch -2 <commit_id> --stdout <name>
+
+79. git commit --allow-empty
+
+80 . git cherry-pick <id>
+
+81. git cherry-pick <id> -n
+
+82. git rebase -i <>
+
+84. git archive < HEAD|-l | --format=zip --output <filename> HEAD>
+
+85. git revert <id>
+
+86. git revert <id> -n
+
+87. git clean
+
+88. git clean -n #list
+
+89 .git clean -d #folders
+
+90. git clean -d -f #files and folders
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
